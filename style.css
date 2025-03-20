@@ -1,0 +1,117 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background: linear-gradient(to bottom, #f5e1c8, #20202093);
+
+}
+    
+
+header{
+    color: white;
+    margin-top: 20px;
+}
+
+header h1{
+    background-color: steelblue;
+    width: 40%;
+    height: 80px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-shadow: 1px 1px 2px rgb(206, 130, 31);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 
+    0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+}
+
+header nav{
+    margin-top: 60px;
+}
+
+header nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li{
+    width: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+}
+
+header nav ul li:hover{
+    opacity: 1;
+}
+
+header nav ul li a{
+    background-color: #1f4e5f;
+    padding-inline: 80px;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(207, 204, 204);
+    text-shadow: 1px 1px 2px #1a1b1b;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 
+    0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+main{
+    display: flex;
+}
+
+main section{
+    color: white;
+    background: linear-gradient(to bottom, #4682b4, #2c3e50);
+    border-radius: 5px;
+    width: 15%;
+    margin: auto;
+    text-align: center;
+    margin-top: 70px;
+    height: 300px;
+}
+
+main section h2{
+    margin: auto;
+    text-shadow: 1px 1px 2px #1a1b1b;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+main section h3{
+    margin: auto;
+    text-shadow: 1px 1px 2px #1a1b1b;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+main section p{
+    margin: auto;
+    text-shadow: 1px 1px 2px #1a1b1b;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    margin-top: 30px;
+}
+
+
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
